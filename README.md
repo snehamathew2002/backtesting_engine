@@ -94,32 +94,8 @@ Strategy performance depends heavily on **market regime**:
 
 | Market Condition | Momentum | Mean Reversion |
 |------------------|----------|----------------|
-| Trending Market  | ✅ Strong | ❌ Weak        |
-| Sideways Market  | ⚠ Mixed  | ✅ Strong      |
-
----
-
-# 🏗️ Project Structure
-
-backtesting-engine/
-│
-├── strategies/
-│ ├── momentum.py
-│ ├── mean_reversion.py
-│
-├── engine/
-│ ├── backtester.py
-│
-├── utils/
-│ ├── metrics.py
-│ ├── plots.py
-│
-├── data/
-├── results/
-│
-├── main.py
-└── README.md
-
+| Trending Market  | Strong | Weak        |
+| Sideways Market  | Mixed  | Strong      |
 
 ---
 
