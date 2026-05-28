@@ -23,4 +23,5 @@ class Backtester:
             self.portfolio_value.append(total_value)
 
         data['Portfolio'] = self.portfolio_value
+        data['MovingAverage'] = data['Close'].rolling(window=10).mean()
         return data
